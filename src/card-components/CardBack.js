@@ -15,7 +15,7 @@ export default class CardBack extends Component {
     if(this.props.IMDBRating === null){
       return <h4>No Rating Found</h4>
     } else {
-      return <img src={this.props.IMDBRating} alt='IMDB Rating' />
+      return <img src={imgMapper[this.props.IMDBRating]} alt='' />
     }
   }
 
